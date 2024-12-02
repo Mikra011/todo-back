@@ -1,7 +1,7 @@
 const Tasks = require('./model.js')
 
 // Get all tasks
-async function getAllTasks(req, res) {
+async function getAllTasks(req, res, next) {
     try {
         const tasks = await Tasks.getAllTasks()
         if (tasks.length === 0) {
@@ -31,6 +31,7 @@ async function createTask(req, res, next) {
 // Mark task as done
 async function markTaskAsDone(req, res, next) {
     const { id } = req.params
+    
     try {
         const [updatedTask] = await Tasks.markTaskAsDone(id)
         if (!updatedTask) {

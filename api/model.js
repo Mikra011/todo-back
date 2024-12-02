@@ -14,7 +14,7 @@ function createTask(task) {
 function markTaskAsDone(taskId) {
     return db('tasks')
         .where({ id: taskId })
-        .update({ complete: true })
+        .update({ complete: db.raw('NOT complete') })
         .returning('*')
 }
 
