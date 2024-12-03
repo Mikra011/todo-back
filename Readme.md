@@ -58,7 +58,7 @@ For the database, I utilized SQL with separate configurations for development an
 
 I used RTK Query for backend interactions, and I really like how it centralizes all fetching and caching in one place. It's particularly convenient to work with, even when the app becomes more CRUD-heavy.
 
-For the drag-and-drop functionality, I chose to use [dnd-kit](https://dndkit.com/). It's a lightweight, well-maintained library, and I would definitely use it again.
+For the drag-and-drop functionality, I chose to use <a href="https://dndkit.com/" target="_blank">dnd-kit</a>. It's a lightweight, well-maintained library, and I would definitely use it again.
 
 I added a basic spinner to keep users engaged while the app loads. This was mainly due to the slow speed of the free deployment I used.
 
@@ -72,7 +72,20 @@ Both the backend and frontend are tested. I am quite satisfied with the backend 
 
 ### Deployemnt
 
-The app is deployed on Render and the database on NeonDB. Feel free to explore the [live version](https://todo-front-0ajr.onrender.com/).
+The app is deployed on Render and the database on NeonDB. Feel free to explore the <a href="https://todo-front-0ajr.onrender.com/" target="_blank">live version</a>.
+
+## Time Log 
+
+| Task                         | Time         |
+|------------------------------|--------------|
+| Planning and learning        | 4h 43min     |
+| Backend development          | 1h 22min     |
+| Frontend development         | 3h 58min     |
+| Deployment and debugging     | 5h 45min     |
+| Testing and documentation    | 4h 22min     |
+| **Total**                    | **20h 30min**|
+
+It could have been done a bit faster, but since you mentioned that it wasn’t urgent, I decided to take my time. I hope that’s okay with you.
 
 ### Notes
 
